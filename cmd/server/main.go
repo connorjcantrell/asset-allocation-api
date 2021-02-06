@@ -26,7 +26,7 @@ func (app *App) Run() error {
 }
 
 func main() {
-	fmt.Println("Asset Allocation")
+	fmt.Println("My Go API")
 	app := App{}
 	if err := app.Run(); err != nil {
 		fmt.Println("Error starting up REST API")
